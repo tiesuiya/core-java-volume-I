@@ -3,7 +3,7 @@ package chapter06;
 /**
  * @Author: tsy
  * @Date: 2020/12/29
- * @Description p2569, 6-9 静态内部类演示
+ * @Description p256, 6-9 静态内部类演示
  */
 public class StaticInnerClassTest {
     public static void main(String[] args) {
