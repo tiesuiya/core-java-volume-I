@@ -11,11 +11,11 @@ public class Bank {
     private final double[] accounts;
 
     public Bank(int n, double initialBalance) {
-        this.accounts = new double[n];
+        accounts = new double[n];
         Arrays.fill(accounts, initialBalance);
     }
 
-    public synchronized void transfer(int from, int to, double amount) {
+    public void transfer(int from, int to, double amount) {
         if (accounts[from] < amount) {
             return;
         }
